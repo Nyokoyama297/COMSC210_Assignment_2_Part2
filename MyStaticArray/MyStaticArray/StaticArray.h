@@ -27,7 +27,7 @@ public:
 	  fill(value, value + CAP, 0);
 
   }
-  int capacity()
+  int capacity() const
   {
 	return CAP;
   }
